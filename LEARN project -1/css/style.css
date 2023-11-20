@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+/* #-----~------
+Start header area
+#-------------*/
+
+header {
+    height: 108vh;
+    overflow: hidden;
+    background-image: url('../img/bgshape.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 42%;
+
+}
+.container {
+    
+}
+.upper-side {
+    display: flex;
+}
+.logo-area {
+    width: 40%;
+}
+.logo-area img {
+    margin: 8px 0 0 225px;
+    width: 60px;
+}
+.menu {
+    width: 60%;
+}
+.menu nav ul {
+    list-style-type: none;
+  
+}
+.menu nav ul li{
+    display: inline-block;
+    margin: 30px 0 0 0;
+}
+.menu ul li a {    
+    text-decoration: none;
+    padding: 12px;
+    font-size: 13px;
+    color:  #424147;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.menu ul li a:hover {
+    color: #43cb83;
+    text-decoration: underline;
+}
+ 
+.menu .dwn {
+    float: right;
+    margin-right: 240px;
+    margin-top: -21px;
+}
+.menu .dwn button {
+    width: 90px;
+    height: 25px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    color: #43cb83;
+    font-size: 12px;
+    background: #fff;
+    font-weight: 600;
+    transition: 0.6s ease;
+}
+.menu .dwn button:hover {
+    background: #fff;
+    color: #43cb83;
+    border: 1px solid #43cb83;
+}
+.banner {
+    display: flex;
+    height: 486px;
+}
+.left-area {
+    width: 70%;
+    display: flex;
+    margin-top: 130px;
+}
+.left-area img {
+    width: 120%;
+}
+.head-part {
+    margin: 70px 0px 0 35px;
+}
+.head-part h2 {
+    font-weight: bold;
+    color: #43cb83;
+}
+.head-part p {
+    color: #657882;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.head-btn button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid aliceblue;
+    border-radius: 25px;
+    background: #43cb83;
+    color: #fff;
+    transition: 0.6s ease;
+}
+.head-btn button:hover {
+    background: transparent;
+    color: #43cb83;
+    border: 1px solid #43cb83;
+}
+.right-area {
+    float: right;
+    width: 40%;
+}
+.right-area .layer {
+    margin-top: 190px
+}
+.right-area .layer img {
+    width: 65%;
+    float: right;
+}
+/* ~~~~~~~~~~~~~~~ */
+/* End header area */
+/* ```````````````` */
+/* START DATA SECTION */
+/* #============ */
+
+section .data {
+    overflow: hidden;
+    height: 100vh;
+}
+section .row {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 60px;
+}
+.data-img {
+    width: 100%;
+    margin: auto;
+}
+.mg {
+    margin-left: -5%;
+    margin-top: 8px;
+}
+
+/* End Data Section */
+/* #~~~~~~~~~~~~~ */
+/* Start About chairman Section */
+
+section .about {
+    height: 80vh;
+    overflow: hidden;
+}
+.about-chair {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.left-side {
+    width: 40%;
+}
+.left-side img{
+    width: 100%;
+}
+.right-side {
+    width: 40%;
+    margin-left: 100px;
+}
+.right-heading h2{
+    color: #43cb83;
+    margin-bottom: 20px;
+}
+.right-heading p {
+    font-size: 12px;
+    color: #5a6e79;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.js {
+    display: flex;
+}
+.js .student {
+    color: #ffba00;
+}
+.js .student p {
+    font-size: 13px;
+    margin-top: -5px;
+}
+.js .course {
+    color: #ff5f72;
+    margin-left: 60px;
+}
+.js .course p {
+    font-size: 13px;
+    margin-top: -5px;
+}
+.js .hour {
+    color: #43cb83;
+    margin-left: 60px;
+}
+.js .hour p {
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+/* End About chairman */
+/* #~~~~~~~~~~~~~~~~~ */
+/*  */
+
+/* START FORM SECTION */
+
+.form {
+    padding-top: 115px;
+    height: 63vh;
+    background: #fff;
+}
+.container-form {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/background.png')
+}
+
+.left-cover {
+    width: 55%;
+    float: left;
+    display: flex;
+}
+.left-cover img {
+    width: 18%;
+    margin-left: 50px;
+}
+.left-cover-heading {
+    margin: 90px 0 0 50px;
+}
+.left-cover-heading p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
+.left-cover-heading p,span {
+    letter-spacing: 1px;
+}    
+.left-cover-heading h2 {
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-cover {
+    width: 45%;
+    float: left;
+    display: flex;
+}
+.right-cover .apply {
+    width: 322px;
+    height: 350px;
+    background: url('../img/backgroundshape.png');
+    background-repeat: repeat;
+    margin-top: -55px;
+    background-size: 119%;
+    background-position: 68% 42%;
+}
+.apply .first-text {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #000;
+    margin-left: -10px;
+    transition: 0.5s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.apply .first-text:hover {
+    color: #43cb83;
+}
+.apply form {
+    width: 250px;
+    margin: auto;
+}
+.apply input[type="text"],
+.apply input[type="email"],
+.apply input[type="password"]
+ {
+    border: none;
+    border-bottom: 1px solid #657882;
+    margin: 19px 0 0 -6px;
+    width: 240px;
+}
+.apply input[placeholder="First Name"],
+.apply input[placeholder="Last Name"],
+.apply input[placeholder="E-Mail Address"],
+.apply input[placeholder="Choose Password"],
+.apply input[placeholder="Confirm Password"] {
+    font-size: 11px;
+    font-weight: 600;
+}
+.check-btn {
+    margin-top: 16px;
+    margin-left: -8px;
+    display: flex;
+}
+.check-btn p {
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.check-btn input {
+    border: 1px solid #43cb83;
+    border-radius: 2px;
+}
+.apply-btn {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.apply-btn button{
+    width: 130px;
+    height: 35px;
+    border: 1px solid aliceblue;
+    border-radius: 25px;
+    background: #43cb83;
+    color: #fff;
+    transition: 0.6s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.apply-btn button:hover {
+    background: transparent;
+    color: #43cb83;
+    border: 1px solid #43cb83;
+}
+.apply-btn p {
+    color: gray;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.a-tag {
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+.a-tag a {
+    color: gray;
+    font-size: 10px;
+}
+.img-cover {
+    margin-left: -45px;
+}
+.img-cover img {
+    width: 65%;
+    float: right;
+}
+
+/* End Form Section 
+~~~~~~~~~~~~~~~~~~~~~*/
+
+/* #~~~~~~~~~~ */
+
+
+/* Start Feedback Section */
+
+.feedback {
+    padding-top: 70px;
+    height: 80vh;
+}
+.top-side {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.top-head {
+    width: 70%;
+}
+.top-head h2 {
+    color: #43cb83;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.top-head p {
+    color: grey;
+    font-weight: 400;
+    font-size: 13px;
+}
+.top-btn {
+    width: 15%;
+    margin-top: 53px;
+    margin-left: 70px;
+}
+.top-btn button{
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+    border: 1px solid aliceblue;
+    border-radius: 25px;
+    background: #43cb83;
+    color: #fff;
+    transition: 0.6s ease;
+}
+.top-side{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 40px;
+}
+.top-btn button:hover {
+    background: transparent;
+    color: #43cb83;
+    border: 1px solid #43cb83;
+}
+.feedback .row {
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.down-side h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.down-side p {
+    font-size: 13px;
+    color: gray;
+    width: 350px;
+    margin-bottom: 10px;
+}
+.first-lv{
+    display: flex;
+}
+.first-lv img {
+    width: 10px;
+    height: 10px;
+
+}
+.first-lv span {
+    font-size: 9px;
+    margin-top: -1px;
+    margin-left: 5px;
+}
+.margin-ir {
+    margin-left: 15px;
+}
+.date {
+    margin-left: 180px;
+    margin-top: -3px;
+    font-size: 13px;
+}
+
+/* End feedback Area */
+
+/* #------------- */
+
+/* Start Footer Section */
+
+footer {
+    height: 50vh;
+    background: #252c3a;
+    padding-top: 60px;
+
+}
+.top-foot .row {
+    width: 60%;
+    margin-left: 20%;
+}
+.foot-logo img {
+    width: 110px;
+}
+.foot-head {
+    margin-top: 10px;
+    border-bottom: 1px solid #969595;
+
+}
+.foot-head p {
+    font-size: 13px;
+    color: #969595;
+    width: 175px;
+    margin-bottom: 15px;
+}
+.foot-icon img{
+    width: 20px;
+}
+.foot-icon .first-one {
+    width: 21px;
+    margin-top: 10px;
+}
+.foot-icon .second-one {
+    width: 16px;
+    margin-bottom: 2px;
+}
+.foot-data .p-head h5{
+    color: #fff;
+    margin-bottom: 21px;   
+}
+.foot-data .p-head p {
+    margin-top: 10px;
+    color: #969595;
+    font-size: 13px;
+    width: 220px;
+}
+.foot-data .p-head span {
+    font-size: 8px;
+}
+.foot-data .p-line {
+    margin-left: 35px;
+}
+.foot-data .last-head h5{
+    color: #fff;
+    margin-bottom: 21px;
+}
+.foot-data .last-head p {
+    font-size: 13px;
+    color: #969595;
+}
+.subscribe-foot {
+    display: flex;
+    margin-top: 15px;
+}
+.subscribe-foot input {
+    width: 120px;
+    height: 32px;
+    font-size: 10px;
+    padding-left: 5px;
+    border: 1px solid #43cb83;
+}
+.subscribe-foot .btn {
+    color: #fff;
+    background: #43cb83;
+    transition: 0.6s;
+}
+.subscribe-foot .btn:hover {
+    background: transparent;
+}
+.bottom-foot {
+    background: #1d232e;
+    display: flex;
+    height: 40px;
+    margin-top: 50px;
+}
+.bottom-foot .left {
+    float: left;
+    width: 50%;
+}
+.bottom-foot .left {
+    font-size: 12px;
+    margin-left: 21%;
+    margin-top: 10px;
+    color: rgba(199, 236, 236, 0.924);
+}
+.bottom-foot .right {
+    float: right;
+    width: 50%;
+    display: flex;
+    margin-top: 10px;
+}
+.bottom-foot .right a{
+    padding-left: 15px;
+    font-size: 12px;
+    color: rgba(199, 236, 236, 0.924);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.bottom-foot .right a:hover {
+    text-decoration: underline;
+}
+
+/* End Footer Section */
+
+/* ~~  :(-  ~~ */
